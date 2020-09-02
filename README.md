@@ -15,8 +15,8 @@ After this, run `npm run test` in order to run the test files.
 
 In order to custom input, update the graph.txt.
 
-    1. The first line is an the graph route as csv.
-    1. The next n lines are routes which you can find the distance of.
+1. The first line is an the graph route as csv.
+1. The next n lines are routes which you can find the distance of.
 
 And run `npm run start`
 
