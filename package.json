@@ -1,0 +1,25 @@
+{
+  "name": "trains-directed-graph",
+  "version": "1.0.0",
+  "description": "Work Sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/casey-white/trains-directed-graph.git"
+  },
+  "author": "Casey White",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/casey-white/trains-directed-graph/issues"
+  },
+  "homepage": "https://github.com/casey-white/trains-directed-graph#readme",
+  "dependencies": {
+    "@types/jest": "^26.0.12",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0",
+    "typescript": "^4.0.2"
+  }
+}
