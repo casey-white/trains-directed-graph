@@ -4,7 +4,8 @@
   "description": "Work Sample",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "node dist/index.js",
+    "test": "npx jest"
   },
   "repository": {
     "type": "git",

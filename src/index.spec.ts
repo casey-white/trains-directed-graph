@@ -87,9 +87,6 @@ test("The length of the shortest route (in terms of distance to travel) from B t
 test("The number of different routes from C to C with a distance of less than 30.", () => {
   const graph = initGraph();
 
-  console.log(
-    graph.findAllPaths("C", "C", 10).filter((path) => path.weight < 30)
-  );
   // slight assumption here that no path with more than 10 steps will be the smallest
   expect(
     graph.findAllPaths("C", "C", 10).filter((path) => path.weight < 30).length
